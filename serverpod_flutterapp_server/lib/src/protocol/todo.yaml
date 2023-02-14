@@ -1,0 +1,7 @@
+class : TodoModel
+table: todo_tb
+
+fields :
+  title: String
+  description: String
+  isCompleted : bool

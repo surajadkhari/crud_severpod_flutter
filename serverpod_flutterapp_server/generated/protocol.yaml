@@ -1,0 +1,15 @@
+example:
+  - hello:
+todo:
+  - createTodo:
+  - getUserById:
+  - getAllUser:
+  - update:
+  - delete:
+user:
+  - hello:
+  - createUser:
+  - getUserById:
+  - getAllUser:
+  - update:
+  - delete:
