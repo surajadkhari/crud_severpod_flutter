@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
     if (context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Text(
-          "Delete Sucessfully",
+          "Deleted Sucessfully",
         ),
         duration: Duration(milliseconds: 500),
         backgroundColor: Colors.green,
@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
     await getData();
     if (context.mounted) {
       showSnackbarW(
-          context: context, message: "Update Sucessfuly", isError: false);
+          context: context, message: "Updated Sucessfuly", isError: false);
     }
 
     if (context.mounted) {
